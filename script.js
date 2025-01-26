@@ -31,7 +31,8 @@ const whatsappGroups = {
     '524016': {
         'A': 'https://chat.whatsapp.com/F5g4wHRQyTGDB0qTUl1QiY',
         'B': 'https://chat.whatsapp.com/CkyBttdRaty8pCH40LYIKt',
-        'C': 'https://chat.whatsapp.com/FssaqeAFU1O4XfFykID05q'
+        'C': 'https://chat.whatsapp.com/FssaqeAFU1O4XfFykID05q',
+        'D': 'https://chat.whatsapp.com/FssaqeAFU1O4XfFykID05q'
     },
     '324016': {
         'A': 'https://chat.whatsapp.com/E3p3B25G06ABlxdaRSS3of',
