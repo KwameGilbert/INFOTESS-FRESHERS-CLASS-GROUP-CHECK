@@ -57,9 +57,9 @@ const whatsappGroups = {
         'O': 'https://chat.whatsapp.com/BaF055VzNrNBiAcdTZyx3Z'
     },
     '324017': {
-        'A': 'https://chat.whatsapp.com/CJFWPSBB76x69XcDyQXsvM',
-        'B': 'https://chat.whatsapp.com/CJFWPSBB76x69XcDyQXsvM',
-        'C': 'https://chat.whatsapp.com/CJFWPSBB76x69XcDyQXsvM'
+        'A': 'https://chat.whatsapp.com/HQSdEu2pV0j0xbTwaJro8j',
+        'B': 'https://chat.whatsapp.com/HQSdEu2pV0j0xbTwaJro8j',
+        'C': 'https://chat.whatsapp.com/HQSdEu2pV0j0xbTwaJro8j'
     },
     '524020': {
         'A': 'https://chat.whatsapp.com/CJFWPSBB76x69XcDyQXsvM',
