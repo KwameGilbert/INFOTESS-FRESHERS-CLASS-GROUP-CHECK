@@ -116,7 +116,7 @@ function checkClass() {
     if (whatsappLink) {
         resultElement.innerHTML = 'Category: ' + category + '<br>';
         resultElement.innerHTML += 'Class: ' + classGroup + '<br>';
-        resultElement.innerHTML += '<a href="' + whatsappLink + '" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded inline-block mt-4">Join WhatsApp Group</a>';
+        resultElement.innerHTML += '<a href="' + whatsappLink + '" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded inline-block mt-4">Join ' + classGroup + ' WhatsApp Group</a>';
     } else {
         resultElement.innerHTML = 'Could not find a matching WhatsApp group.';
     }
