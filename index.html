@@ -22,7 +22,7 @@
         <input type="text" id="indexNumber" placeholder="Enter you 10-digit Index Number"
             class="w-full p-2 border rounded mb-4">
       
-        <button onclick="(async () => { 
+        <button style="background-color: blue; color: white; padding: 2px; width: 100%;" onclick="(async () => { 
             this.textContent = 'Loading...';
             this.disabled = true;
             await new Promise(r => setTimeout(r, 1500));
