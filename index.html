@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOTESS Class Checker</title>
+    <!-- <link href="https://cdn.tailwindcss.com" rel="stylesheet"> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="bg-white p-8 rounded shadow-md w-96">
+        <img src="logo.png" alt="INFOTESS Logo" class="w-32 mx-auto mb-4">
+        <h1 class="text-xl mb-4 text-center">INFOTESS Class Checker</h1>
+        <input type="text" id="indexNumber" placeholder="Enter you 10-digit Index Number"
+            class="w-full p-2 border rounded mb-4">
+        <button onclick="checkClass()" class="w-full bg-blue-500 text-white p-2 rounded">Check Class</button>
+        <p id="result" class="mt-4 text-center text-lg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
