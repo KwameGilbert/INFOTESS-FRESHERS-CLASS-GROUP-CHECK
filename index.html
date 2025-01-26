@@ -22,6 +22,14 @@
         <input type="text" id="indexNumber" placeholder="Enter you 10-digit Index Number"
             class="w-full p-2 border rounded mb-4">
         <button onclick="checkClass()" class="w-full bg-blue-500 text-white p-2 rounded">Check Class</button>
+        <button onclick="(async () => { 
+            this.textContent = 'Loading...';
+            this.disabled = true;
+            await new Promise(r => setTimeout(r, 3000));
+            this.textContent = 'Check Class';
+            this.disabled = false;
+            checkClass();
+        })()" class="w-full bg-blue-500 text-white p-2 rounded">Check Class</button>
         <p id="result" class="mt-4 text-center text-lg"></p>
     </div>
     <script src="script.js"></script>
